@@ -24,8 +24,8 @@ export default function LoginPage() {
         <input
           type="password"
           inputMode="numeric"
-          pattern="\\d*"
-          placeholder="****"
+  placeholder="******"
+
           value={pin}
           onChange={(e) => setPin(e.target.value)}
           className="w-full p-3 mb-4 text-center rounded-md bg-gray-800 focus:outline-none focus:ring-2 focus:ring-emerald-500"
